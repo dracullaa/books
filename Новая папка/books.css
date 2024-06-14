@@ -1,0 +1,60 @@
+/* Стилизация главной области магазина */
+.bookstore {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+  
+/* Стилизация книг */
+.book {
+  width: 100px;
+  height: 150px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  margin: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+  
+/* Стилизация полок */
+.shelf {
+ width: 90%;
+ height: 20px;
+  background-color: #deb887;
+  margin: 10px;
+}
+/* styles.css */
+.h1 title{
+ background-color: #f4eded;
+ color: white; 
+}
+
+body {
+  background-image: url('https://get.pxhere.com/photo/horizon-mountain-snow-winter-cloud-sky-sunlight-atmosphere-mountain-range-weather-blue-arctic-ridge-summit-alps-plateau-tundra-landform-arctic-ocean-geographical-feature-atmospheric-phenomenon-atmosphere-of-earth-mountainous-landforms-1388235.jpg');
+  background-size: cover; /* чтобы изображение занимало весь фон */
+  background-repeat: no-repeat; /* запрет повтора фона */
+}
+
+/* Стили для кнопки #checkout */
+#checkout {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Стили для кнопки #view-cart */
+#view-cart {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+
+
+
+
